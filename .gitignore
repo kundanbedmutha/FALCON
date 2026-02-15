@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments (anchored — do NOT ignore project sub-packages)
+/.venv/
+/venv/
+
+.env
+
+# Generated results (re-create by running train.py / benchmark.py)
+results/all_results.json
+results/iql_training_history.json
+results/iql_agent_stats.json
+results/ablation_results.json
+
+# IDE / editor
+.idea/
+.vscode/
+*.suo
+*.user
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
